@@ -6,7 +6,7 @@
 
 ### View
 ```html
-<fun-metis-menu ng-if="vars.loaded" fun-metis-config="vars.metis.config" fun-metis-events="vars.metis.events" class="metismenu">
+<fun-metis-menu fun-metis-config="vars.metis.config" fun-metis-events="vars.metis.events" class="metismenu">
     <nav>
         <ul>
             <li>
