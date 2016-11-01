@@ -34,17 +34,15 @@
 ```js
 
 //YOUR CONTROLER......
-$scope.vars.scrollConfig = {
-    autoHideScrollbar: false,
-    theme: ThemeService.isDark( )
-        ? 'light'
-        : 'dark',
-    scrollButtons: {
-        enable: false
+$scope.vars.metis = {
+    config: {
+        toggle: true,
     },
-    scrollInertia: 400,
-    advanced: {
-        updateOnContentResize: true
-    }
+    events: [
+        {
+            type: 'hide.metisMenu',
+            callback: ( event ) => console.log( "423523523", event )
+        }
+    ]
 };
 ```
