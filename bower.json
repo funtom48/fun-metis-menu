@@ -1,0 +1,18 @@
+{
+    "name": "fun-metis-menu",
+    "version": "0.1.0",
+    "authors": [
+        "funtom48 <ivan40in48@gmail.com>"
+    ],
+    "description": "Metis menu directive for AngularJS",
+    "main": "src/fun-metis.js",
+    "keywords": [
+        "AngularJS",
+        "MetisMenu"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "angular": ">=1.2",
+        "metisMenu": ">=2.0"
+    }
+}
