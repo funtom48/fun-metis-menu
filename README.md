@@ -1,6 +1,6 @@
 # fun-metis-menu
 
-[metisMenu](https://github.com/onokumus/metisMenu) directive for AngularJS.
+[metisMenu](https://github.com/onokumus/metisMenu) directive for AngularJS with config and events.
 
 ## Usage
 
