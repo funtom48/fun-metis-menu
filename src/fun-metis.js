@@ -12,7 +12,6 @@
 				events: '=funMetisEvents'
 			},
 			link: function ( scope, element ) {
-				console.log( scope );
 				var menuElement = element.find( '> nav > ul' );
 				menuElement.addClass( 'metismenu' );
 				var config = scope.config || {};
