@@ -4,7 +4,7 @@
   "description": "Metis menu directive for AngularJs",
   "main": "src/fun-metis.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "build":"webpack -p"
   },
   "repository": {
