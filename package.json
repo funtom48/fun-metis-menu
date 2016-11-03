@@ -1,0 +1,27 @@
+{
+  "name": "fun-metis-menu",
+  "version": "1.0.0",
+  "description": "Metis menu directive for AngularJs",
+  "main": "src/fun-metis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funtom48/fun-metis-menu.git"
+  },
+  "keywords": [
+    "AngularJs",
+    "MetisMenu"
+  ],
+  "author": "funtom48",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funtom48/fun-metis-menu/issues"
+  },
+  "homepage": "https://github.com/funtom48/fun-metis-menu#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
+}
