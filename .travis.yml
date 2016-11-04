@@ -7,3 +7,11 @@ install:
 
 before_script:
   - npm run build
+
+after_success:
+  - rev=$(git rev-parse --short HEAD)
+  - git config user.name "uname"
+  - git config user.password "password"
+  - git add .
+  - git commit -m "committed at ${rev}"
+  - git push origin HEAD:master
