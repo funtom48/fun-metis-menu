@@ -4,4 +4,4 @@ module.exports = {
          path: './dist',
          filename: 'fun-metis.min.js'
      }
- };
+}
