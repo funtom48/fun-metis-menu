@@ -1,6 +1,5 @@
-var myApp = angular.module('myApp', ['funMetisMenu']);
-
-function MyCtrl($scope) {
+angular.module('myApp', ['funMetisMenu'])
+.controller('MyCtrl', function($scope) {
     $scope.metis = {
         config: {
             toggle: true,
@@ -11,4 +10,4 @@ function MyCtrl($scope) {
         }]
     };
     $scope.name = "41241";
-}
+});
