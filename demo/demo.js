@@ -9,5 +9,4 @@ angular.module('myApp', ['funMetisMenu'])
             callback: (event) => console.log("423523523", event)
         }]
     };
-    $scope.name = "41241";
 });
