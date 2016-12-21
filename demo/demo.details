@@ -5,4 +5,5 @@
  resources:
    - https://code.jquery.com/jquery-2.2.3.min.js
    - http://cdn.jsdelivr.net/jquery.metismenu/2.6.1/metisMenu.min.js
+   - https://raw.githubusercontent.com/funtom48/fun-metis-menu/master/src/fun-metis.js
  ...
