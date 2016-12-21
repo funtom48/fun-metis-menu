@@ -1,0 +1,14 @@
+var myApp = angular.module('myApp', ['funMetisMenu']);
+
+function MyCtrl($scope) {
+    $scope.metis = {
+        config: {
+            toggle: true,
+        },
+        events: [{
+            type: 'hide.metisMenu',
+            callback: (event) => console.log("423523523", event)
+        }]
+    };
+    $scope.name = "41241";
+}

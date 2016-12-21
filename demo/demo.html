@@ -1,31 +1,41 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>funMetisMenu Demo</title>
-    </head>
-    <body>
-        <fun-metis-menu fun-metis-config="vars.metis.config" fun-metis-events="vars.metis.events" class="metismenu">
+<div ng-app>
+    <div ng-controller="MyCtrl">
+        <fun-metis-menu fun-metis-config="metis.config" fun-metis-events="metis.events" class="metismenu">
             <nav>
                 <ul>
                     <li>
                         <a href="/test1"></a>
                         <ul>
-                            <li><a href="/subtest1"></a><li>
-                            <li><a href="/subtest2"></a><li>
-                            <li><a href="/subtest3"></a><li>
+                            <li>
+                                <a href="/subtest1"></a>
+                            <li>
+                            <li>
+                                <a href="/subtest2"></a>
+                            <li>
+                            <li>
+                                <a href="/subtest3"></a>
+                            <li>
                         </ul>
                     </li>
                     <li>
                         <a href="/test2"></a>
                         <ul>
-                            <li><a href="/subtest1"></a><li>
-                            <li><a href="/subtest2"></a><li>
-                            <li><a href="/subtest3"></a><li>
+                            <li>
+                                <a href="/subtest1"></a>
+                            <li>
+                            <li>
+                                <a href="/subtest2"></a>
+                            <li>
+                            <li>
+                                <a href="/subtest3"></a>
+                            <li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </fun-metis-menu>
-    </body>
-</html>
+        {{name}}
+
+    </div>
+
+</div>
