@@ -3,7 +3,7 @@
  authors:
    - funtom48
  resources:
- - http://cdn.jsdelivr.net/jquery.metismenu/2.6.1/metisMenu.min.js
-   - https://rawgit.com/funtom48/fun-metis-menu/master/src/fun-metis.js
+   - http://cdn.jsdelivr.net/jquery.metismenu/2.6.1/metisMenu.min.js
    - https://code.jquery.com/jquery-2.2.3.min.js
+   - https://rawgit.com/funtom48/fun-metis-menu/master/src/fun-metis.js
  ...
