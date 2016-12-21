@@ -5,7 +5,7 @@
   "main": "src/fun-metis.js",
   "scripts": {
     "test": "",
-    "build":"webpack -p"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/funtom48/fun-metis-menu#readme",
   "devDependencies": {
     "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "metismenu": "^2.6.1"
   }
 }

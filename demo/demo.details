@@ -1,0 +1,7 @@
+---
+ name: fun-metis-menu
+ authors:
+   - funtom48
+ resources:
+   - http://cdn.jsdelivr.net/jquery.metismenu/2.6.1/metisMenu.min.js
+ ...
