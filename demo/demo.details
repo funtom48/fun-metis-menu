@@ -4,5 +4,5 @@
    - funtom48
  resources:
    - https://code.jquery.com/jquery-2.2.3.min.js
-   - https://rawgit.com/funtom48/fun-metis-menu/master/src/fun-metis.js
+   - https://cdn.jsdelivr.net/gh/funtom48/fun-metis-menu/src/fun-metis.js
  ...
