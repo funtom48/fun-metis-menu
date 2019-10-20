@@ -2,6 +2,9 @@
 
 [metisMenu](https://github.com/onokumus/metisMenu) directive for AngularJS with config and events.
 
+## DEMO
+https://jsfiddle.net/funtom48/3prfge8z/4/
+
 ## Usage
 
 ### View
