@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.0/angular.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.6.1/metisMenu.min.js"></script>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/2.6.1/metisMenu.min.css">
+        <script src="//cdn.jsdelivr.net/gh/funtom48/fun-metis-menu/src/fun-metis.js"></script>
+        <script src="demo.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp">
+            <div ng-controller="MyCtrl">
+                <fun-metis-menu fun-metis-config="metis.config" fun-metis-events="metis.events" class="metismenu">
+                    <nav>
+                        <ul>
+                            <li ng-repeat="item in items">
+                                <a href="/test1">{{item[0]}}</a>
+                                <ul>
+                                    <li ng-repeat="subitem in item[1]">
+                                        {{subitem}}
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </fun-metis-menu>
+            </div>
+        </div>
+    </body>
+</html>
