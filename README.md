@@ -41,7 +41,7 @@ $scope.vars.metis = {
     events: [
         {
             type: 'hide.metisMenu',
-            callback: ( event ) => console.log( "423523523", event )
+            callback: ( event ) => console.log(event )
         }
     ]
 };
