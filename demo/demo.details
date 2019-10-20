@@ -1,8 +1,0 @@
----
- name: fun-metis-menu
- authors:
-   - funtom48
- resources:
-   - https://code.jquery.com/jquery-2.2.3.min.js
-   - https://cdn.jsdelivr.net/gh/funtom48/fun-metis-menu/src/fun-metis.js
- ...
